@@ -1,6 +1,6 @@
 <html>
 
-    <header style="text-align: center; padding: 10px 0;background-color: blue; font-size: 30px" id="inicio">
+    <header style="text-align: center; padding: 10px 0;background-color: blue; font-size: 30px; color: white;" id="inicio">
         <head>
             <h1>
                 <title>HTML</title>
@@ -14,12 +14,12 @@
 
     <body>
         <nav>
-            <ul style="list-style: none; display: flex; justify-content: space-between; background-color: blue; padding: 10px 0;">
-                <li><a href="Omega.html#inicio" style="color: black;">Inicio</a></li>
-                <li><a href="Omega.html#" style="color: black;">HTML</a></li>
-                <li><a href="Omega.html#tabela" style="color: black;">TABELA</a></li>
-                <li><a href="" style="color: black;">Sobre CSS, HTML e javaScript</a></li>
-                <li><a href="" style="color: black;">Contato</a></li>
+            <ul style="list-style: none; display: flex; justify-content: space-between; background-color: blue; padding: 5px 30px;">
+                <li><a href="Omega.html#inicio" style="color: white;">Inicio</a></li>
+                <li><a href="Omega.html#" style="color: white;">HTML</a></li>
+                <li><a href="Omega.html#tabela" style="color: white;">TABELA</a></li>
+                <li><a href="Omega.html#explicacao" style="color:   white;">Sobre CSS, HTML e javaScript</a></li>
+                <li><a href="Cliente.html" style="color:white;">Contato</a></li>
             </ul>
         </nav>
         <section>
@@ -31,6 +31,11 @@
                     web.<mark> Define o significado e a estrutura do conteúdo da web.</mark> Outras tecnologias além do HTML
                     geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento
                     <i>(JavaScript)</i> de uma página
+
+                <h3>
+                    Qual e a Função do HTML ?
+
+                </h3>
                 </article>
             </p>
             <hr>
@@ -107,26 +112,53 @@
                 </ul>
             </footer>
         </div>
-        <section style="display: flex; padding: 30px;">
-            <section style="background-color: rgb(255, 196, 0); width: 33.33%;height: 300px;">
-                texto 1
+        <section style="display: flex; padding: 30px;" id="explicacao">
+            <section style="color: white;text-align: center;background-color: rgb(255, 196, 0); width: 33.33%;height: 250px 10pox;">
+                <h1 style="text-align: center;">O que é HTML? :</h1>
+                HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo.
             </section>
-            <section style="background-color: rgb(51, 73, 197); width: 33.33%;height: 300px;">
-                texto 2
+
+            <section style="text-align: center; color: white;background-color: rgb(51, 73, 197); width: 33.33%;height: 250px;">
+                <h1 style="text-align: center;">O que é CSS? :</h1>
+                Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags style. Também é possível, adicionar estilos adicionando um link para um arquivo CSS que contém os estilos.
             </section>
-            <section style="background-color: rgb(21, 105, 138); width: 33.33%; height: 300px;">
-                texto 3
+
+            <section style="text-align: center;color: white;background-color: rgb(21, 105, 138); width: 33.33%; height: 250px;">
+                <h1>O qué javaScript? :</h1>
+                JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
             </section>
         </section>
 
-        <section style="display: flex;">
-            <section style="background-color: gray;width: 33.33%;height: 300px;"> <h</h1></section>
-            <section style="background-color: rgb(70, 61, 61);width: 33.33%;height: 300px;">Texto </section>
-            <section style="background-color: gray;width: 33.33%;height: 300px;">Texto </section>
-            <section style="background-color: rgb(70, 61, 61);width: 33.33%;height: 300px;">Texto </section>
-            
+        <footer>
+            <section style="display: flex; padding: 30px;">
+                <section style="background-color: rgb(70, 61, 61);width: 33.33%;height: 150px;"> 
+                <ul><h1 style="color: white">Sobre</h1>
+                    <li><a style="color: white" href="Omega.html#inicio">Topo</a></li>
+                    <li><a style="color: white" href="">Termo de privacidade</a></li>
+                    <li><a style="color: white" href="Cliente.html">Fale Conosco</a></li>
+                </ul>
+            </section>
 
-        </section>
+                <section style="background-color: gray;width: 33.33%;height: 150px;">
+                <ul><h1>Referencia</h1>
+                    <li><a  href="https://www.w3schools.com" target="_blank">w3School</a></li>
+                    <li><a href="https://www.alura.com.br" target="_blank">Alura</a></li>
+                    <li><a  href="https://www.youtube.com/@profdanielbrandao" target="_blank">Youtube</a></li>
+
+                </ul>
+            </section>
+                <section style="background-color: rgb(70, 61, 61);width: 33.33%;height: 150px;">
+                <ul> <h1 style="color: white">Tutoriais</h1>
+                    <li style="color: white">Desgin</li>
+                    <li style="color: white">Marketing</li>
+                    <li style="color: white">Programacao</li>
+                    <li style="color: white">Tutoriais</li>
+                </ul>
+            </section>
+
+            </section>
+        </footer>    
+
 
         
     </body>
